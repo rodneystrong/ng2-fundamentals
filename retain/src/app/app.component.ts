@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
-import { MainContainerComponent } from './containers/main';
-import { FooterContainerComponent } from './containers/footer-container';
+import { MainContainerComponent } from './containers/main-container/main';
+import { FooterContainerComponent } from './containers/footer-container/footer-container';
 
 @Component({
   selector: 'app-root',

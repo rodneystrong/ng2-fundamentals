@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { AppBar } from '../ui/app-bar';
+import { AppBar } from '../../ui/app-bar';
 
 
 @Component({
