@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 
-import { MainContainerComponent } from './containers/main-container/main';
+import { MainContainerComponent } from './containers/main-container/main-container';
 import { FooterContainerComponent } from './containers/footer-container/footer-container';
 
 @Component({

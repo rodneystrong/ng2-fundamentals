@@ -4,6 +4,9 @@ import {NoteCard} from '../../ui/notes/note-card';
 
 @Component ({
   selector: 'notes-container',
+  directives: [
+    NoteCard
+  ],
   templateUrl: './notes-container.component.html',
   styleUrls: ['./notes-container.component.css']
 })

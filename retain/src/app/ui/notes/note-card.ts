@@ -8,4 +8,9 @@ import {Component} from '@angular/core';
   styleUrls: ['./note-card.component.css']
 })
 
-export class NoteCard {};
+export class NoteCard {
+  note = {
+    title: 'clean note title',
+    value: 'check it value'
+  }
+};
