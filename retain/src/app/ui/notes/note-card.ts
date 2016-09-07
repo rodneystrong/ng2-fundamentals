@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Input} from '@angular/core';
 
 
 
@@ -8,12 +8,12 @@ import {Component} from '@angular/core';
   // to create a custom attribute called 'note'.
   // you'll use this on your notes-container using
   // this syntax [note]
-  inputs: ['note'],
+  inputs: ['noteprop'],
   templateUrl: './note-card.component.html',
   styleUrls: ['./note-card.component.css']
 })
 
 export class NoteCard {
-  note = {
+  noteprop = {
   }
 };

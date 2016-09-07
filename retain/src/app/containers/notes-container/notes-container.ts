@@ -12,7 +12,7 @@ import {NoteCard} from '../../ui/notes/note-card';
 })
 
 export class NotesContainer {
-  note = {
+  noteObj = {
     title: 'new note title',
     value: 'note value'
   }
