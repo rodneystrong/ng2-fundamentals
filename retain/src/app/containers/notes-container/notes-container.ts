@@ -11,4 +11,9 @@ import {NoteCard} from '../../ui/notes/note-card';
   styleUrls: ['./notes-container.component.css']
 })
 
-export class NotesContainer {};
+export class NotesContainer {
+  note = {
+    title: 'new note title',
+    value: 'note value'
+  }
+};
