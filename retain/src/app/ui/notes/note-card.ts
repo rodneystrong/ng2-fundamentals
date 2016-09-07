@@ -10,6 +10,12 @@ import {Component, Input} from '@angular/core';
 
 export class NoteCard {
   @Input() noteprop = {
+  };
+
+  showCheck: boolean = false;
+
+  toggle() {
+    this.showCheck = !this.showCheck;
   }
 
   onChecked() {
