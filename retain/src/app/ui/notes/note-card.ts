@@ -11,4 +11,8 @@ import {Component, Input} from '@angular/core';
 export class NoteCard {
   @Input() noteprop = {
   }
+
+  onChecked() {
+    console.log('clicked!');
+  }
 };
